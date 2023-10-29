@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%; /* Establecer un ancho máximo para el div */
+  padding: 20px; /* Agregar un espacio en el interior del div para que el contenido no llegue a los bordes */
+  box-sizing: border-box; /* Incluir el padding en el ancho total */
+}
+
+/* Aplicar estilos específicos para tamaños de pantalla más pequeños */
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 10px; /* Reducir el espacio interior del div para tamaños de pantalla más pequeños */
+  }
+}

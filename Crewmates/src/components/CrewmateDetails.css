@@ -1,0 +1,12 @@
+.container{
+    position:fixed;
+    width: 500px; /* Adjust the width to your desired value */
+    box-sizing: border-box; /* Include padding in the total width */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
