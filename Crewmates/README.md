@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Walkthrough_Crewmates.gif' />
+<img src='Walkthrough_Crewmates_Project.gif' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
